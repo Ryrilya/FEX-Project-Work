@@ -1,0 +1,118 @@
+.vertical-navbar
+  position: relative
+  width: 300px
+  height: 100vh
+  min-width: 300px
+  min-height: 100%
+  display: flex
+  flex-direction: column
+  padding: 10px
+  border-radius: 0 40px 40px 0
+  box-shadow: 0px 3px 6px rgba(0,0,0, .1)
+  background: rgb(2,0,36)
+  background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(15,112,183,1) 0%, rgba(21,139,216,1) 39%, rgba(0,146,255,1) 100%)
+  overflow-y: hidden
+  color: #fff
+  padding: 0
+  margin-right: 20px
+
+  .navbar-brand
+    display: flex
+    justify-content: center
+    margin: 50px 0 100px 0
+
+    img
+      width: 70%
+    
+
+  .link-background
+    display: flex
+    align-items: center
+    height: 70px
+    margin-bottom: 40px
+
+    .line
+      width: 0px
+      height: 0%
+      background: #fff
+      border-radius: 0 5px 5px 0
+      box-shadow: 0 3px 6px rgba(0,0,0, .2)
+      transition: height 0.5s ease
+
+    .link-svg
+      width: 40px
+      margin-right: 20px
+      margin-left: 40px
+
+    .nav-link
+      color: #ffffff
+      text-decoration: none
+      font-size: 16px
+
+  div.active
+    background: #77C9FF
+    transition: all 1.5s ease-in-out
+    box-shadow: 0 3px 6px rgba(0,0,0, .2)
+
+
+    .line
+      width: 10px
+      height: 100%
+      background: #fff
+      margin-right: 20px
+
+    .link-svg
+      width: 40px
+      margin-right: 20px
+      margin-left: 10px
+
+    .nav-link
+      font-size: 18px
+      transition: all 0.8s ease
+  // .nav
+  //   list-style-type: none
+
+  //   li.nav-item
+  //     margin: 70px 0px
+
+  //     .nav-link
+  //       text-decoration: none
+  //       font-size: 18px
+  //       color: #fff
+
+  //   li.active
+  //     background: #77C9FF
+  //     padding: 20px
+
+  .account
+    position: absolute
+    height: 80px
+    width: 100%
+    bottom: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .avatar
+      width: 70px
+      height: 70px
+      border-radius: 50%
+      background: #fff
+      overflow: hidden
+      margin-right: 20px
+      box-shadow: 0 3px 6px rgba(0,0,0, .2)
+
+      img
+        width: 100%
+
+    .account-details
+      button
+        padding: 3px 10px
+        margin-top: 8px
+        background: #fff
+        border: none
+        border-radius: 3px
+        color: #2A89CE
+        font-size: 12px
+        font-family: 'Montserrat', sans-serif
+
